@@ -1,10 +1,9 @@
 // app/layout.tsx
-import * as Font from 'expo-font';
-import { Slot } from 'expo-router';
-import * as SplashScreen from 'expo-splash-screen';
 import React, { useCallback, useEffect, useState } from 'react';
+import { Slot } from 'expo-router';
 import { StatusBar, View } from 'react-native';
-
+import * as SplashScreen from 'expo-splash-screen';
+import * as Font from 'expo-font';
 
 SplashScreen.preventAutoHideAsync();
 
